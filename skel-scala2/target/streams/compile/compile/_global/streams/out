@@ -1,0 +1,13 @@
+[warn] /home/student/Desktop/An3/LFA/proiect/skel-scala2/src/main/scala/Nfa.scala:99:54: comparing values of types A and A using `equals` unsafely bypasses cooperative equality; use `==` instead
+[warn]   def isFinal(state: A): Boolean = acceptState.equals(state)
+[warn]                                                      ^
+[warn] /home/student/Desktop/An3/LFA/proiect/skel-scala2/src/main/scala/Nfa.scala:122:5: Exhaustivity analysis reached max recursion depth, not all missing cases are reported.
+[warn] (Please try with scalac -Ypatmat-exhaust-depth 40 or -Ypatmat-exhaust-depth off.)
+[warn]     tmp match {
+[warn]     ^
+[warn] /home/student/Desktop/An3/LFA/proiect/skel-scala2/src/main/scala/Nfa.scala:201:7: match may not be exhaustive.
+[warn] It would fail on the following inputs: Empty, MAYBE(_), PLUS(_)
+[warn]       n match {
+[warn]       ^
+[warn] 1 deprecation (since 2.13.3); re-run with -deprecation for details
+[warn] four warnings found

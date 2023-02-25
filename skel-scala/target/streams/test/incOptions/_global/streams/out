@@ -1,0 +1,8 @@
+[debug] Created transactional ClassFileManager with tempDir = /home/student/Desktop/An3/LFA/proiect/skel-scala/target/scala-2.13/test-classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Registering generated classes:
+[debug] 	DfaTests.class
+[debug] 	NfaTests$TestIterator$1.class
+[debug] 	NfaTests.class
+[debug] Removing the temporary directory used for backing up class files: /home/student/Desktop/An3/LFA/proiect/skel-scala/target/scala-2.13/test-classes.bak

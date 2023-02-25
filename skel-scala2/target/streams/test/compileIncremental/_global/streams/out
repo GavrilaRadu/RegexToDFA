@@ -1,0 +1,47 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 1 products, 1 sources, 2 libraries
+[debug] current source = Set()
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(${BASE}/src/test/scala/RegexParseTests.scala), changed = Set(), unmodified = ...),Set(${BASE}/target/scala-2.13/test-classes/RegexParseTests.class),Set(),API Changes: Set(NamesChange(Dfa,ModifiedNames(changes = UsedName(addState,[Default]), UsedName(toString,[Default]), UsedName(getStates,[Default]), UsedName(finalStates,[Default]), UsedName(fromNfa,[Default]), UsedName(setInitialState,[Default]), UsedName(delta,[Default]), UsedName(initialState,[Default]), UsedName(apply,[Default]), UsedName(setAcceptState,[Default]), UsedName(relabelAsInt,[Default]), UsedName(addTransition,[Default]), UsedName(fromPrenexWithSubstates,[Default]), UsedName(states,[Default]), UsedName(Dfa;init;,[Default]), UsedName(addTransitions,[Default]))), NamesChange(Dfa$,ModifiedNames(changes = UsedName(addState,[Default]), UsedName(toString,[Default]), UsedName(getStates,[Default]), UsedName(finalStates,[Default]), UsedName(fromNfa,[Default]), UsedName(setInitialState,[Default]), UsedName(delta,[Default]), UsedName(initialState,[Default]), UsedName(apply,[Default]), UsedName(setAcceptState,[Default]), UsedName(relabelAsInt,[Default]), UsedName(addTransition,[Default]), UsedName(fromPrenexWithSubstates,[Default]), UsedName(states,[Default]), UsedName(Dfa;init;,[Default]), UsedName(addTransitions,[Default]))), NamesChange(Regex$,ModifiedNames(changes = UsedName(asInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(wait,[Default]), UsedName(Regex;init;,[Default]), UsedName(synchronized,[Default]), UsedName(ne,[Default]), UsedName(!=,[Default]), UsedName(eq,[Default]), UsedName(finalize,[Default]), UsedName(isInstanceOf,[Default]), UsedName(equals,[Default]), UsedName(hashCode,[Default]), UsedName(Regex,[Default]), UsedName(toNfa,[Default]), UsedName(##,[Default]), UsedName(apply,[Default]), UsedName(unionOf,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName(notify,[Default]), UsedName(fromPrenex,[Default]), UsedName(isParsed,[Default]), UsedName(alphabet,[Default]), UsedName(getClass,[Default]), UsedName(toPostfix,[Default]), UsedName(notifyAll,[Default])))))
+[debug] The Dfa has the following regular definitions changed:
+[debug] 	UsedName(addState,[Default]), UsedName(toString,[Default]), UsedName(getStates,[Default]), UsedName(finalStates,[Default]), UsedName(fromNfa,[Default]), UsedName(setInitialState,[Default]), UsedName(delta,[Default]), UsedName(initialState,[Default]), UsedName(apply,[Default]), UsedName(setAcceptState,[Default]), UsedName(relabelAsInt,[Default]), UsedName(addTransition,[Default]), UsedName(fromPrenexWithSubstates,[Default]), UsedName(states,[Default]), UsedName(Dfa;init;,[Default]), UsedName(addTransitions,[Default]).
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) Dfa: Set()
+[debug] Now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all classes transitively invalidated by inheritance.
+[debug] Getting classes that directly depend on (external) Dfa.
+[debug] None of the modified names appears in source file of RegexParseTests. This dependency is not being considered for invalidation.
+[debug] The Dfa$ has the following regular definitions changed:
+[debug] 	UsedName(addState,[Default]), UsedName(toString,[Default]), UsedName(getStates,[Default]), UsedName(finalStates,[Default]), UsedName(fromNfa,[Default]), UsedName(setInitialState,[Default]), UsedName(delta,[Default]), UsedName(initialState,[Default]), UsedName(apply,[Default]), UsedName(setAcceptState,[Default]), UsedName(relabelAsInt,[Default]), UsedName(addTransition,[Default]), UsedName(fromPrenexWithSubstates,[Default]), UsedName(states,[Default]), UsedName(Dfa;init;,[Default]), UsedName(addTransitions,[Default]).
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) Dfa$: Set()
+[debug] Now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all classes transitively invalidated by inheritance.
+[debug] Getting classes that directly depend on (external) Dfa$.
+[debug] None of the modified names appears in source file of RegexParseTests. This dependency is not being considered for invalidation.
+[debug] The Regex$ has the following regular definitions changed:
+[debug] 	UsedName(asInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(wait,[Default]), UsedName(Regex;init;,[Default]), UsedName(synchronized,[Default]), UsedName(ne,[Default]), UsedName(!=,[Default]), UsedName(eq,[Default]), UsedName(finalize,[Default]), UsedName(isInstanceOf,[Default]), UsedName(equals,[Default]), UsedName(hashCode,[Default]), UsedName(Regex,[Default]), UsedName(toNfa,[Default]), UsedName(##,[Default]), UsedName(apply,[Default]), UsedName(unionOf,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName(notify,[Default]), UsedName(fromPrenex,[Default]), UsedName(isParsed,[Default]), UsedName(alphabet,[Default]), UsedName(getClass,[Default]), UsedName(toPostfix,[Default]), UsedName(notifyAll,[Default]).
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) Regex$: Set()
+[debug] Now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all classes transitively invalidated by inheritance.
+[debug] Getting classes that directly depend on (external) Regex$.
+[debug] The following modified names cause invalidation of RegexParseTests: [==, fromPrenex, Regex]
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set(${BASE}/src/test/scala/RegexParseTests.scala)
+[debug] 	added: Set()
+[debug] 	modified: Set()
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/test-classes/RegexParseTests.class)
+[debug] External API changes: API Changes: Set(NamesChange(Dfa,ModifiedNames(changes = UsedName(addState,[Default]), UsedName(toString,[Default]), UsedName(getStates,[Default]), UsedName(finalStates,[Default]), UsedName(fromNfa,[Default]), UsedName(setInitialState,[Default]), UsedName(delta,[Default]), UsedName(initialState,[Default]), UsedName(apply,[Default]), UsedName(setAcceptState,[Default]), UsedName(relabelAsInt,[Default]), UsedName(addTransition,[Default]), UsedName(fromPrenexWithSubstates,[Default]), UsedName(states,[Default]), UsedName(Dfa;init;,[Default]), UsedName(addTransitions,[Default]))), NamesChange(Dfa$,ModifiedNames(changes = UsedName(addState,[Default]), UsedName(toString,[Default]), UsedName(getStates,[Default]), UsedName(finalStates,[Default]), UsedName(fromNfa,[Default]), UsedName(setInitialState,[Default]), UsedName(delta,[Default]), UsedName(initialState,[Default]), UsedName(apply,[Default]), UsedName(setAcceptState,[Default]), UsedName(relabelAsInt,[Default]), UsedName(addTransition,[Default]), UsedName(fromPrenexWithSubstates,[Default]), UsedName(states,[Default]), UsedName(Dfa;init;,[Default]), UsedName(addTransitions,[Default]))), NamesChange(Regex$,ModifiedNames(changes = UsedName(asInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(wait,[Default]), UsedName(Regex;init;,[Default]), UsedName(synchronized,[Default]), UsedName(ne,[Default]), UsedName(!=,[Default]), UsedName(eq,[Default]), UsedName(finalize,[Default]), UsedName(isInstanceOf,[Default]), UsedName(equals,[Default]), UsedName(hashCode,[Default]), UsedName(Regex,[Default]), UsedName(toNfa,[Default]), UsedName(##,[Default]), UsedName(apply,[Default]), UsedName(unionOf,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName(notify,[Default]), UsedName(fromPrenex,[Default]), UsedName(isParsed,[Default]), UsedName(alphabet,[Default]), UsedName(getClass,[Default]), UsedName(toPostfix,[Default]), UsedName(notifyAll,[Default]))))
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(RegexParseTests)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/test/scala/RegexParseTests.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set(RegexParseTests)
+[debug] All initially invalidated classes: Set(RegexParseTests)
+[debug] All initially invalidated sources:Set(${BASE}/src/test/scala/RegexParseTests.scala)
+[debug] Initial set of included nodes: RegexParseTests
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1

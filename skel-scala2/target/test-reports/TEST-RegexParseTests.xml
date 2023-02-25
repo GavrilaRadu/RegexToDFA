@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="alex-IdeaPad-L340-15IRH-Gaming" name="RegexParseTests" tests="32" errors="0" failures="0" skipped="0" time="2.852" timestamp="2022-11-12T16:54:49">
+          <properties>
+      <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value=""/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://ubuntu.com/"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/><property name="sun.java.command" value="/home/alex/.cache/sbt/boot/sbt-launch/1.7.3/sbt-launch-1.7.3.jar test"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2022-10-18"/><property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.17+8-post-Ubuntu-1ubuntu218.04"/><property name="user.name" value="alex"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/alex/.cache/JNA/temp/jna8744811444775228545.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="11.0.17"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="sun.os.patch.level" value="unknown"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.vendor" value="Ubuntu"/><property name="scala.ext.dirs" value="/home/alex/.sbt/1.0/java9-rt-ext-ubuntu_11_0_17"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.desktop" value="gnome"/><property name="java.class.path" value="/home/alex/.cache/sbt/boot/sbt-launch/1.7.3/sbt-launch-1.7.3.jar"/><property name="java.vm.vendor" value="Ubuntu"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/Bucharest"/><property name="os.name" value="Linux"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="US"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/alex"/><property name="user.language" value="en"/><property name="sbt.script" value="/usr/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="/run/user/1000/.sbt/ipcsocket"/><property name="swoval.tmpdir" value="/run/user/1000/.sbt/swoval"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="5.4.0-131-generic"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/lib64:/usr/lib:/lib:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/libx32:/lib32:/usr/libx32:/usr/lib32:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/><property name="user.dir" value="/home/alex/Desktop/lfa/lfa-etapa2/solution-scala"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="11.0.17+8-post-Ubuntu-1ubuntu218.04"/><property name="java.class.version" value="55.0"/>
+    </properties>
+          <testcase classname="RegexParseTests" name="single char (1p)" time="0.072">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="single concat (1p)" time="0.024">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="single union (1p)" time="0.016">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="single star (1p)" time="0.008">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="union concat 1 (2p)" time="0.019">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="union concat 2 (2p)" time="0.008">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="multiple union (3p)" time="0.023">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="union concat with par 1 (3p)" time="0.013">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="union concat with par 2 (3p)" time="0.012">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="union star (2p)" time="0.012">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="concat star (3p)" time="0.028">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="complex union concat (6p)" time="0.028">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="all basic 1 (6p)" time="0.013">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="all basic 2 (6p)" time="0.018">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="all basic 3 (6p)" time="0.014">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="all basic 4 (6p)" time="0.017">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="all basic 5 (6p)" time="0.02">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="all basic 6 (6p)" time="0.015">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="all basic 7 (6p)" time="0.036">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="eps (1p)" time="0.003">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="escaped chars 1 (1p)" time="0.003">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="escaped chars 2 (1p)" time="0.003">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="0 to 9 (2p)" time="0.019">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="a to z (2p)" time="0.095">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="A to Z (2p)" time="0.084">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="plus (1p)" time="0.004">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="question mark (1p)" time="0.003">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="q and p (1p)" time="0.009">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="0 to 9 star (3p)" time="0.066">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="squared ops (3p)" time="1.375">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="complex (6p)" time="0.38">
+                      
+                    </testcase><testcase classname="RegexParseTests" name="all (6p)" time="0.412">
+                      
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

@@ -1,0 +1,19 @@
+[0m[[0m[31merror[0m] [0m[0m/home/alex/Desktop/lfa/lfa-etapa2/solution-scala/src/test/scala/RegexParseTests.scala:316:13: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m    println(s)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/Desktop/lfa/lfa-etapa2/solution-scala/src/test/scala/RegexParseTests.scala:317:27: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(Dfa.fromPrenex(s).accepts("bdda "))[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/Desktop/lfa/lfa-etapa2/solution-scala/src/test/scala/RegexParseTests.scala:318:27: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(Dfa.fromPrenex(s).accepts("0123765498cddaQ"))[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/Desktop/lfa/lfa-etapa2/solution-scala/src/test/scala/RegexParseTests.scala:319:27: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(Dfa.fromPrenex(s).accepts("bbbbbbcddaa"))[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/Desktop/lfa/lfa-etapa2/solution-scala/src/test/scala/RegexParseTests.scala:320:27: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(Dfa.fromPrenex(s).accepts("ddaT"))[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/alex/Desktop/lfa/lfa-etapa2/solution-scala/src/test/scala/RegexParseTests.scala:321:28: not found: value s[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(!Dfa.fromPrenex(s).accepts("07bcdda "))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m

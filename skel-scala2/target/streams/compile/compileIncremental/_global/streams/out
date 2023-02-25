@@ -1,0 +1,74 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 28 products, 3 sources, 3 libraries
+[debug] current source = Set(${BASE}/src/main/scala/Dfa.scala, ${BASE}/src/main/scala/Nfa.scala, ${BASE}/src/main/scala/Regex.scala)
+[debug] Invalidating '${BASE}/target/scala-2.13/classes/Constants.class' because could not find class Constants$ on the classpath.
+[debug] Invalidating '${BASE}/target/scala-2.13/classes/Lexer.class' because could not find class Lexer$ on the classpath.
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Nfa.scala, ${BASE}/src/main/scala/Dfa.scala, ${BASE}/src/main/scala/Regex.scala), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/Regex$.class, ${BASE}/target/scala-2.13/classes/RegexError$.class, ${BASE}/target/scala-2.13/classes/Star$.class, ${BASE}/target/scala-2.13/classes/ZeroNine.class, ${BASE}/target/scala-2.13/classes/Dfa.class, ${BASE}/target/scala-2.13/classes/Nfa.class, ${BASE}/target/scala-2.13/classes/Pending$.class, ${BASE}/target/scala-2.13/classes/Lowaz.class, ${BASE}/target/scala-2.13/classes/Void.class, ${BASE}/target/scala-2.13/classes/Void$.class, ${BASE}/target/scala-2.13/classes/Atom$.class, ${BASE}/target/scala-2.13/classes/Highaz$.class, ${BASE}/target/scala-2.13/classes/Nfa$.class, ${BASE}/target/scala-2.13/classes/Lowaz$.class, ${BASE}/target/scala-2.13/classes/Star.class, ${BASE}/target/scala-2.13/classes/Union.class, ${BASE}/target/scala-2.13/classes/Eps$.class, ${BASE}/target/scala-2.13/classes/RegexError.class, ${BASE}/target/scala-2.13/classes/ZeroNine$.class, ${BASE}/target/scala-2.13/classes/Atom.class, ${BASE}/target/scala-2.13/classes/Pending.class, ${BASE}/target/scala-2.13/classes/Concat.class, ${BASE}/target/scala-2.13/classes/Eps.class, ${BASE}/target/scala-2.13/classes/Regex.class, ${BASE}/target/scala-2.13/classes/Dfa$.class, ${BASE}/target/scala-2.13/classes/Highaz.class, ${BASE}/target/scala-2.13/classes/Concat$.class, ${BASE}/target/scala-2.13/classes/Union$.class),Set(${BASE}/target/scala-2.13/classes/Constants.class, ${BASE}/target/scala-2.13/classes/Lexer.class),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/Nfa.scala, ${BASE}/src/main/scala/Dfa.scala, ${BASE}/src/main/scala/Regex.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/classes/Regex$.class, ${BASE}/target/scala-2.13/classes/RegexError$.class, ${BASE}/target/scala-2.13/classes/Star$.class, ${BASE}/target/scala-2.13/classes/ZeroNine.class, ${BASE}/target/scala-2.13/classes/Dfa.class, ${BASE}/target/scala-2.13/classes/Nfa.class, ${BASE}/target/scala-2.13/classes/Pending$.class, ${BASE}/target/scala-2.13/classes/Lowaz.class, ${BASE}/target/scala-2.13/classes/Void.class, ${BASE}/target/scala-2.13/classes/Void$.class, ${BASE}/target/scala-2.13/classes/Atom$.class, ${BASE}/target/scala-2.13/classes/Highaz$.class, ${BASE}/target/scala-2.13/classes/Nfa$.class, ${BASE}/target/scala-2.13/classes/Lowaz$.class, ${BASE}/target/scala-2.13/classes/Star.class, ${BASE}/target/scala-2.13/classes/Union.class, ${BASE}/target/scala-2.13/classes/Eps$.class, ${BASE}/target/scala-2.13/classes/RegexError.class, ${BASE}/target/scala-2.13/classes/ZeroNine$.class, ${BASE}/target/scala-2.13/classes/Atom.class, ${BASE}/target/scala-2.13/classes/Pending.class, ${BASE}/target/scala-2.13/classes/Concat.class, ${BASE}/target/scala-2.13/classes/Eps.class, ${BASE}/target/scala-2.13/classes/Regex.class, ${BASE}/target/scala-2.13/classes/Dfa$.class, ${BASE}/target/scala-2.13/classes/Highaz.class, ${BASE}/target/scala-2.13/classes/Concat$.class, ${BASE}/target/scala-2.13/classes/Union$.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set(${BASE}/target/scala-2.13/classes/Constants.class, ${BASE}/target/scala-2.13/classes/Lexer.class)
+[debug] Initial directly invalidated classes: Set(Pending, Lowaz, Atom, Concat, ZeroNine, Highaz, Nfa, Star, RegexError, Regex, Union, Eps, Dfa, Void)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/Dfa.scala, ${BASE}/src/main/scala/Regex.scala, ${BASE}/src/main/scala/Nfa.scala)
+[debug] 	binary dep: Set(${BASE}/src/main/scala/Regex.scala, ${BASE}/src/main/scala/Nfa.scala)
+[debug] 	external source: Set()
+[debug] all 3 sources are invalidated
+[debug] Initial set of included nodes: Pending, Lowaz, Atom, Concat, ZeroNine, Highaz, Nfa, Star, RegexError, Regex, Union, Eps, Dfa, Void
+[debug] Including Union by Regex
+[debug] Including Eps by Regex
+[debug] Including Void by Regex
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 3 Scala sources to /home/student/Desktop/An3/LFA/proiect/skel-scala2/target/scala-2.13/classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.7.1:compile for Scala 2.13.8
+[info] Non-compiled module 'compiler-bridge_2.13' for Scala 2.13.8. Compiling...
+[debug] Creating plain compiler interface for 2.13.8.
+[debug]   > Arguments: 
+[debug] 	-d
+[debug] 	/tmp/sbt_f96587d6
+[debug] 	-nowarn
+[debug] 	-bootclasspath
+[debug] 	/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar
+[debug] 	-classpath
+[debug] 	/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.7.1/compiler-interface-1.7.1.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.7.0/util-interface-1.7.0.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.13/1.7.1/compiler-bridge_2.13-1.7.1-sources.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar:/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar
+[debug] 	/tmp/sbt_13428588/scala/ZincCompat.scala
+[debug] 	/tmp/sbt_13428588/xsbt/API.scala
+[debug] 	/tmp/sbt_13428588/xsbt/AbstractZincFile.scala
+[debug] 	/tmp/sbt_13428588/xsbt/Analyzer.scala
+[debug] 	/tmp/sbt_13428588/xsbt/CallbackGlobal.scala
+[debug] 	/tmp/sbt_13428588/xsbt/ClassName.scala
+[debug] 	/tmp/sbt_13428588/xsbt/Compat.scala
+[debug] 	/tmp/sbt_13428588/xsbt/CompilerBridge.scala
+[debug] 	/tmp/sbt_13428588/xsbt/ConsoleBridge.scala
+[debug] 	/tmp/sbt_13428588/xsbt/DelegatingReporter.scala
+[debug] 	/tmp/sbt_13428588/xsbt/Dependency.scala
+[debug] 	/tmp/sbt_13428588/xsbt/ExtractAPI.scala
+[debug] 	/tmp/sbt_13428588/xsbt/ExtractUsedNames.scala
+[debug] 	/tmp/sbt_13428588/xsbt/GlobalHelpers.scala
+[debug] 	/tmp/sbt_13428588/xsbt/InteractiveConsoleBridge.scala
+[debug] 	/tmp/sbt_13428588/xsbt/InteractiveConsoleFactoryBridge.scala
+[debug] 	/tmp/sbt_13428588/xsbt/InteractiveConsoleHelper.scala
+[debug] 	/tmp/sbt_13428588/xsbt/InteractiveConsoleResponse.scala
+[debug] 	/tmp/sbt_13428588/xsbt/JarUtils.scala
+[debug] 	/tmp/sbt_13428588/xsbt/JavaUtils.scala
+[debug] 	/tmp/sbt_13428588/xsbt/LocalToNonLocalClass.scala
+[debug] 	/tmp/sbt_13428588/xsbt/LocateClassFile.scala
+[debug] 	/tmp/sbt_13428588/xsbt/Log.scala
+[debug] 	/tmp/sbt_13428588/xsbt/Message.scala
+[debug] 	/tmp/sbt_13428588/xsbt/ScaladocBridge.scala
+[debug]       
+[info]   Compilation completed in 11.735s.
+[debug] [zinc] Running cached compiler 41f3bd46 for Scala compiler version 2.13.8
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	/home/student/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar
+[debug] 	-classpath
+[debug] 	/home/student/Desktop/An3/LFA/proiect/skel-scala2/target/scala-2.13/classes
+[debug] Scala compilation took 17.628967597 s
+[info] done compiling

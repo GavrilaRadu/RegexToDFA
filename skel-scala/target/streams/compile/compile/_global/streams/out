@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/home/student/Desktop/An3/LFA/proiect/skel-scala/src/main/scala/Nfa.scala:18:39: value += is not a member of scala.collection.immutable.Set[A][0m
+[0m[[0m[31merror[0m] [0m[0m  Expression does not convert to assignment because receiver is not assignable.[0m
+[0m[[0m[31merror[0m] [0m[0m      case Some(toStates) => toStates += toState;[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/Desktop/An3/LFA/proiect/skel-scala/src/main/scala/Nfa.scala:19:43: value += is not a member of scala.collection.immutable.Map[Char,scala.collection.immutable.Set[A]][0m
+[0m[[0m[31merror[0m] [0m[0m  Expression does not convert to assignment because receiver is not assignable.[0m
+[0m[[0m[31merror[0m] [0m[0m      case None => transitions(fromState) += (c -> Set(toState));[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/student/Desktop/An3/LFA/proiect/skel-scala/src/main/scala/Nfa.scala:38:39: value += is not a member of scala.collection.immutable.Map[Char,scala.collection.immutable.Set[B]][0m
+[0m[[0m[31merror[0m] [0m[0m  Expression does not convert to assignment because receiver is not assignable.[0m
+[0m[[0m[31merror[0m] [0m[0m        nfa.transitions(f(fromState)) += (c -> toStates.map(f));[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

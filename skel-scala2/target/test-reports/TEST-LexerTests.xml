@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="Daemonrift" name="LexerTests" tests="10" errors="0" failures="1" skipped="0" time="0.186" timestamp="2022-10-21T10:11:03">
+          <properties>
+      <property name="java.specification.version" value="17"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="Unknown"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/><property name="sun.java.command" value="/home/neth/.cache/coursier/arc/https/github.com/sbt/sbt/releases/download/v1.7.1/sbt-1.7.1.zip/sbt/bin/sbt-launch.jar test"/><property name="jdk.debug" value="release"/><property name="sun.stderr.encoding" value="UTF-8"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2022-07-19"/><property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="sun.stdout.encoding" value="UTF-8"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="17.0.4+8-Ubuntu-120.04"/><property name="user.name" value="neth"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/neth/.cache/JNA/temp/jna16303441468173529880.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="17.0.4"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.vendor" value="Private Build"/><property name="scala.ext.dirs" value="/home/neth/.sbt/1.0/java9-rt-ext-private_build_17_0_4"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="/home/neth/.cache/coursier/arc/https/github.com/sbt/sbt/releases/download/v1.7.1/sbt-1.7.1.zip/sbt/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Private Build"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/Bucharest"/><property name="java.vm.specification.version" value="17"/><property name="os.name" value="Linux"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="US"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/neth"/><property name="user.language" value="en"/><property name="sbt.script" value="/home/neth/.cache/coursier/arc/https/github.com/sbt/sbt/releases/download/v1.7.1/sbt-1.7.1.zip/sbt/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="/run/user/1000/.sbt/ipcsocket"/><property name="swoval.tmpdir" value="/run/user/1000/.sbt/swoval"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="5.15.0-50-generic"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/lib/i386-linux-gnu:/lib32:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.vendor.url.bug" value="Unknown"/><property name="user.dir" value="/home/neth/Desktop/LFA-2022-2023/lfa-etapa1/solution-scala"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="17.0.4+8-Ubuntu-120.04"/><property name="java.class.version" value="61.0"/>
+    </properties>
+          <testcase classname="LexerTests" name="Parsing a lexer spec 1" time="0.039">
+                      
+                    </testcase><testcase classname="LexerTests" name="Parsing a lexer spec 2" time="0.004">
+                      
+                    </testcase><testcase classname="LexerTests" name="Building a lexer nfa 1" time="0.042">
+                      
+                    </testcase><testcase classname="LexerTests" name="Building a lexer nfa 2" time="0.03">
+                      
+                    </testcase><testcase classname="LexerTests" name="Building a lexer dfa 1" time="0.025">
+                      
+                    </testcase><testcase classname="LexerTests" name="Building a lexer dfa 2" time="0.011">
+                      
+                    </testcase><testcase classname="LexerTests" name="Building a lexer dfa 3" time="0.008">
+                      
+                    </testcase><testcase classname="LexerTests" name="Running the lexer basic test 1" time="0.01">
+                      
+                    </testcase><testcase classname="LexerTests" name="Running the lexer basic test 2" time="0.014">
+                      
+                    </testcase><testcase classname="LexerTests" name="ignore" time="0.003">
+                      <failure message="List() (of class scala.collection.immutable.Nil$)" type="scala.MatchError">scala.MatchError: List() (of class scala.collection.immutable.Nil$)
+	at Lexer$.aux$1(Lexer.scala:87)
+	at Lexer$.findColon$1(Lexer.scala:92)
+	at Lexer$.$anonfun$parseSpec$3(Lexer.scala:95)
+	at scala.collection.ArrayOps$.map$extension(ArrayOps.scala:929)
+	at Lexer$.parseSpec(Lexer.scala:95)
+	at Lexer$.getNfaFromSpec(Lexer.scala:101)
+	at Lexer$.apply(Lexer.scala:118)
+	at LexerTests.$anonfun$new$48(LexerTests.scala:120)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+</failure>
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>
